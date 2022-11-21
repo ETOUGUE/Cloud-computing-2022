@@ -72,20 +72,20 @@ o	Cliquez ensuite sur Open et renseigner les informations comme nom d’utilisat
 ### Installation de notre première application Web
 Nous allons maintenant installer et configurer notre application laravel.
 -	Ouvre l’invite de commande et tapez les commandes suivantes :
-o	$ cd /usr/share/nginx/html
+ - $ cd /usr/share/nginx/html
 -	Nous allons maintenant installer les dépendances de php par les commandes suivantes
-o	$ sudo apt install php-mbstring php-xml php-bcmath
+ - $ sudo apt install php-mbstring php-xml php-bcmath
 -	Nous allons maintenant installer composer qui va nous aider à créer un projet laravel
-o	$ php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
-o	$ COMPOSER=CHAINE COMPOSER (Chaine de caractère affiché par la commande précédente)
-o	$ sudo apt-get install curl php-cli php-mbstring git unzip
-o	$ sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
-o	$ composer –version (Pour vérifier que tout s’est bien passé)
+ - $ php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+ - $ COMPOSER=CHAINE COMPOSER (Chaine de caractère affiché par la commande précédente)
+ - $ sudo apt-get install curl php-cli php-mbstring git unzip
+ - $ sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+ - $ composer –version (Pour vérifier que tout s’est bien passé)
 -	Nous pouvons à présent installer laravel. Nous allons l’appeler simplement tp1
-o	$ composer create-project --prefer-dist laravel/laravel tp1
-o	$ cd tp1
-o	$ sudo chown -R www-data.www-data storage
-o	$ sudo chown -R www-data.www-data bootstrap/cache
+ - $ composer create-project --prefer-dist laravel/laravel tp1
+ - $ cd tp1
+ - $ sudo chown -R www-data.www-data storage
+ - $ sudo chown -R www-data.www-data bootstrap/cache
 
 
 
