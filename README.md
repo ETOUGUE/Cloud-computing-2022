@@ -71,17 +71,17 @@ o	Cliquez ensuite sur Open et renseigner les informations comme nom d’utilisat
 
 ### Installation de notre première application Web
 Nous allons maintenant installer et configurer notre application laravel.
--	Ouvre l’invite de commande et tapez les commandes suivantes :
+*	Ouvre l’invite de commande et tapez les commandes suivantes :
  - $ cd /usr/share/nginx/html
--	Nous allons maintenant installer les dépendances de php par les commandes suivantes
+*	Nous allons maintenant installer les dépendances de php par les commandes suivantes
  - $ sudo apt install php-mbstring php-xml php-bcmath
--	Nous allons maintenant installer composer qui va nous aider à créer un projet laravel
+*	Nous allons maintenant installer composer qui va nous aider à créer un projet laravel
  - $ php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
  - $ COMPOSER=CHAINE COMPOSER (Chaine de caractère affiché par la commande précédente)
  - $ sudo apt-get install curl php-cli php-mbstring git unzip
  - $ sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
  - $ composer –version (Pour vérifier que tout s’est bien passé)
--	Nous pouvons à présent installer laravel. Nous allons l’appeler simplement tp1
+*	Nous pouvons à présent installer laravel. Nous allons l’appeler simplement tp1
  - $ composer create-project --prefer-dist laravel/laravel tp1
  - $ cd tp1
  - $ sudo chown -R www-data.www-data storage
