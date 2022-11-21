@@ -1,5 +1,13 @@
 # PROJET DE CLOUD COMPUTING
-
+### Soumettre son projet sur git
+- Installer git sur votre machine (Télécharger sur https://git-scm.com/downloads)
+- cloner le projet sur votre machine : 
+    - git clone https://github.com/ETOUGUE/Cloud-computing-2022.git
+- Vous créer un dossier portant votre nom suivi du mot tp1 à l'intérieur du dossier cloné
+- Mettre le fichier PDF du rapport du TP. Vous devez mettre les capture d'écran des étapes du TP dans votre rapport
+- Soumettre voutre travail
+    - git push origin main
+    
 ### Objectifs
 Ce TP a pour objectif la réalisation d’une architecture web basée sur le cloud computing. Pour ce faire, nous avons opté pour Amazon Aws qui est le leader dans le domaine. 
 A la fin de ce TP, chaque étudiant devra être capable de :
